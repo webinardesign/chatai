@@ -7,8 +7,7 @@ interface Message {
 }
 
 export const useChat = () => {
- const varchat = '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';
-  const apiKey = varchat;
+const apiKey = import.meta.env.VITE_API_KEY;
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
 
