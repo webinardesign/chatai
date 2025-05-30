@@ -23,6 +23,11 @@ const teamMembers = [
     role: 'B.tech(CSE)',
     photo: 'https://via.placeholder.com/150', // Replace with actual image URL
   },
+  {
+    name: 'Gudiya',
+    role: 'B.tech(CSE)',
+    photo: 'https://via.placeholder.com/150', // Replace with actual image URL
+  },
 ];
 
 export const Team = () => {
