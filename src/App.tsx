@@ -1,5 +1,5 @@
-import React from 'reactss';
-import { Routes, Route } from 'react-router-domss';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
